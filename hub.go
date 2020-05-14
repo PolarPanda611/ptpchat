@@ -5,6 +5,7 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -59,6 +60,7 @@ func (h *Hub) run() {
 					}
 				}
 			}
+			fmt.Println("user not found")
 		}
 	}
 }
